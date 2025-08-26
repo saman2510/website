@@ -48,6 +48,10 @@ body {
   border-radius: 15px;
   padding: 20px;
   font-family: "Lilita One", sans-serif;
+  transition: transform 2s ease-out 0.1s;
+}
+.demigod:hover{
+  transform:rotate(-5deg);
 }
 .demigod p {
   line-height: 25px;
